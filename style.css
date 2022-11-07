@@ -1,0 +1,148 @@
+/*Top header style*/
+
+.top-header{
+	background-color: #0485be;
+}
+
+/*contat into css*/
+.top-header .contact-info{
+	list-style-type: none;
+}
+
+.top-header .contact-info li{
+	display: inline-block;
+	margin-left: 20px;
+}
+
+.top-header .contact-info li:first-child{
+	margin-left: 0px;
+}
+
+/
+
+
+.top-header .contact-info li a{
+	color: #ffffff;
+	text-decoration: none;
+}
+
+
+/*Social Media CSS*/
+.top-header .social-media{
+	list-style-type: none;
+}
+
+.top-header .social-media li{
+	display: inline-block;
+	margin-left: 20px;
+}
+
+.top-header .social-media li:first-child{
+	margin-left: 0px;
+}
+
+.top-header .social-media li a{
+	color: #ffffff;
+	text-decoration: none;
+}
+
+@media screen and (max-width: 515px) {
+	 .top-header .social-media li{
+		display: block;
+		margin-left: 0px;
+	}
+}
+
+/*for bottmm header*/
+
+/*search box*/
+
+/*for logo*/
+@media screen and (max-width: 576px) {
+	 img.logo{
+		width: 50%;
+	}
+}
+
+.bottom-header{
+	padding: 5px 0px;
+}
+.search-box input{
+	border: 1px solid #0485be;
+}
+
+/*menu*/
+
+.menu .bg-light {
+	background-color: #ebebeb !important;
+}
+
+.navbar-light .navbar-nav .nav-link{
+	color: #0485be;
+	font-family: 'Oswald', sans-serif;
+	font-size: 14pt;
+
+}
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link{
+	background-color: #0485be;
+	color: #ffffff;
+}
+
+
+
+/*end menu*/
+
+/*slider*/
+
+.slider .carousel-caption{
+	background-color: #000000;
+	opacity: 0.5;
+}
+
+/*about us*/
+/*.about-us{
+	background-color: #000000;
+}*/
+.about-us h2{
+	padding: 0px 40%;
+	font-size: 20px;
+	font-family: 'Oswald', sans-serif;
+	font-weight: bold;
+	color: #0485be;
+	text-transform: uppercase;
+}
+
+
+.about-us p{
+	text-align: justify;
+	font-family: 'Roboto', sans-serif;
+}
+
+.about-us .about-button{
+	margin-left: 45%;
+}
+
+/*for about media query*/
+@media screen and (max-width: 576px) {
+	 .about-us img{
+		width: 70%;
+	}
+
+	.about-us .about-button{
+		margin-left: 25%;
+	}
+}
+
+
+
+footer{
+	margin-top: 30px;
+}
+footer p{
+	padding:10px;
+	background-color:#0485be;  
+	text-align:center;
+	color: #ffffff;
+	font-weight: bold;
+}
